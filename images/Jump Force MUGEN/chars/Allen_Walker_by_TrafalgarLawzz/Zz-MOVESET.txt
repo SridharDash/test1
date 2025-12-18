@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Cross Beta
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Cross Spear
+
+D,DB,B,a - Cross Belt
+
+D,DF,F,b - Cross Grave
+
+D,DB,B,b - Cross Heal
+
+D,DF,F,c - Cross Paling/Cross Paling Air
+
+D,DB,B,c - Edge End
+
+SUPER: 
+
+D,s - Crown Clown

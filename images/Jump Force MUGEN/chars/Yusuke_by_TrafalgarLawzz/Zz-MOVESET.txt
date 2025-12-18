@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Reigan
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Leikogan
+
+D,DB,B,a - Ora Ora Ora Ora Ora!!!
+
+D,DF,F,b - Shottogan
+
+D,DB,B,b - Shottogan Air
+
+D,DF,F,c - Cho Reigan
+
+D,DB,B,c - Half Mazoku/Yogan Rensha
+
+SUPER: 
+
+D,s - Cho Yogan

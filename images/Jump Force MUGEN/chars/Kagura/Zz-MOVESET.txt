@@ -1,0 +1,32 @@
+
+A - Phisic Hit
+
+B - Parasol Hit
+
+C - Parasol Gun
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Kiero!
+
+D,DB,B,a - Kotatsu Trap
+
+F,DF,D,DB,B,a - Konoyaro!
+
+D,DF,F,b - Sadaharu!
+
+D,DB,B,b - Sadaharu Assault
+
+F,DF,D,DB,B,b - Rice Recovery
+
+D,DF,F,c - Oops!
+
+D,DB,B,c - Yato Parasol
+
+B,DB,D,DF,F,c - Yorozuya Gura Chan
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Yato Blood

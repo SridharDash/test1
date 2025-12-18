@@ -1,0 +1,24 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Electric Beel
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Jump & Push
+
+D,DB,B,a - Throw Beel
+
+D,DF,F,b - Oga Punch (Zebel Punch)
+
+D,DB,B,b - Super Milk Time
+
+D,DF,F,c - Zebel Blast
+
+D,DB,B,c - Beel Cry
+
+D,s - Oga & Baby Beel Fused

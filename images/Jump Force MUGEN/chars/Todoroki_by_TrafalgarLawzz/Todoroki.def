@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Shoto Todoroki"
+displayname ="Shoto Todoroki"
+versiondate =24/11/2017
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Todoroki.sff
+anim =Todoroki.air
+sound =Todoroki.snd
+cmd =Todoroki.cmd
+cns =Todoroki.cns
+st =Todoroki.cns
+stcommon =common1.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

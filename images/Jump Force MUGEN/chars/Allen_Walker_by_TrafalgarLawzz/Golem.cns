@@ -1,0 +1,124 @@
+;===============================================================================
+; Golem:
+;-------------------------------------------------------------------------------
+; Stance
+[Statedef 4000]
+type    = A
+movetype= I
+physics = N
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 4000
+sprpriority = 0
+
+[State 0, Turn]
+type = Turn
+trigger1 = facing != root,facing
+
+[State 200, WALK FWD]
+type = Changestate
+trigger1 = rootdist x > 30
+value = 4020
+
+[State 200, WALK BACK]
+type = Changestate
+trigger1 = rootdist x < -30
+value = 4021
+
+[State 200, WALK DOWN]
+type = Changestate
+triggerall = root,pos y <= 0
+trigger1 = rootdist y > 60
+value = 4025
+
+[State 200, WALK UP]
+type = Changestate
+trigger1 = rootdist y < 30
+value = 4030
+
+[State 200, End]
+type = Destroyself
+trigger1 = time = -1
+;-------------------------------------------------------------------------------
+; Walk FWD
+[Statedef 4020]
+type    = A
+movetype= I
+physics = N
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 4020
+sprpriority = 0
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = 1
+x = 4
+
+[State 200, End]
+type = Changestate
+trigger1 = rootdist x < 30
+value = 4000
+;-------------------------------------------------------------------------------
+; Walk BACK
+[Statedef 4021]
+type    = A
+movetype= I
+physics = N
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 4021
+sprpriority = 0
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = 1
+x = -4
+
+[State 200, End]
+type = Changestate
+trigger1 = rootdist x > -30
+value = 4000
+;-------------------------------------------------------------------------------
+; Walk DOWN
+[Statedef 4025]
+type    = A
+movetype= I
+physics = N
+juggle  = 1
+velset = 0,0
+ctrl = 0
+sprpriority = 0
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = 1
+y = 4
+
+[State 200, End]
+type = Changestate
+trigger1 = rootdist y < 30
+value = 4000
+;-------------------------------------------------------------------------------
+; Walk UP
+[Statedef 4030]
+type    = A
+movetype= I
+physics = N
+juggle  = 1
+velset = 0,0
+ctrl = 0
+sprpriority = 0
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = 1
+y = -4
+
+[State 200, End]
+type = Changestate
+trigger1 = rootdist y > 30
+value = 4000

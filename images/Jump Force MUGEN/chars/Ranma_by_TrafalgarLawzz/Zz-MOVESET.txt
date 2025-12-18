@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Moko Takabisha
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Amaguriken Kick
+
+D,DB,B,a - Kachu Tenshin Amaguriken
+
+D,DF,F,b - Shishi Hokodan
+
+D,DB,B,b - Ranma Sense
+
+D,DF,F,c - Chou Moko Takabisha
+
+D,DB,B,c - Hiryu Shoten Ha
+
+SUPER: 
+
+D,s - Hiryu Korin Dan

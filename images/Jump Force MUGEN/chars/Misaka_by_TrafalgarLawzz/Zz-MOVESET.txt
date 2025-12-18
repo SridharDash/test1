@@ -1,0 +1,26 @@
+
+A - Lightning Ball
+
+B - Kick
+
+C - Lightning
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Lightning Spear
+
+D,DB,B,a - Lightning Strikes
+
+D,DF,F,b - Summon Lightning
+
+D,DB,B,b - Iron Sand Tornado
+
+D,DF,F,c - Lightning Explosion
+
+D,DB,B,c - Discharge
+
+SUPER: 
+
+D,s - Electromagnetic Force: Rail Gun

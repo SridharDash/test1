@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Saitama"
+displayname ="Saitama"
+versiondate =17/05/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Saitama.sff
+anim =Saitama.air
+sound =Saitama.snd
+cmd =Saitama.cmd
+cns =Saitama.cns
+stcommon =common1.cns
+st =Saitama.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

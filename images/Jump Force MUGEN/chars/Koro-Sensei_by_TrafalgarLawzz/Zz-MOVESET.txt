@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Rocket
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Throw Many Rockets
+
+D,DB,B,a - Read Book (Counter)
+
+D,DF,F,b - Throw Missiles
+
+D,DB,B,b - Start Assassination
+
+D,DF,F,c - Koro-Sensei Angry
+
+D,DB,B,c - Koro-Sensei Tornados
+
+SUPER: 
+
+D,s - Earth Koro-Sensei

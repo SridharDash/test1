@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Yugi"
+displayname ="Yugi"
+versiondate =23/03/2018
+mugenversion =1.0
+author ="Shiruzato/Mythos"
+pal.defaults =1
+
+[Files]
+sprite =Yugi.sff
+anim =Yugi.air
+sound =Yugi.snd
+cmd =Yugi.cmd
+cns =Yugi.cns
+stcommon =common1.cns
+st =Yugi.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

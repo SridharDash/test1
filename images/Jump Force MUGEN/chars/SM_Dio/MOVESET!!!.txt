@@ -1,0 +1,84 @@
+Normal mode:
+
+
+Ground
+
+A - low punch Hit
+
+Down + A - Uppercut combo
+
+B - The world punch Hit
+
+Down + B - Throw knife (can in Air)
+
+C - Muda Muda Muda Rush
+-500 power
+
+S - The world Dogde
+-1000 power
+
+Air
+
+A - Low punch Hit
+
+B - Stand Punch Hit
+
+C - Stand kick Hit
+
+S - Power Charge (can in air)
+
+SPECIALS:
+
+D,DF,F,a - laser bean 
+-1000 power
+
+F,DF,D,DB,B,a - muda! muda! kicks barrage
+-1000 power
+
+D,DB,B,a - The World: Toki wo tomare! (D,DB,B,a -The World teleport -500 power *in "the world" actived)
+-1000 power
+
+D,DF,F,b - Muda! Muda! Muda! 
+-1000 power
+
+D,DB,B,b - Chance? *Taunt*
+-1000 power
+
+D,DF,F,c - Vamp Drain (increase speed and damage/HP and drain Energy of Enemy/increase walk and run Speed)
+-1500 power
+
+F,DF,D,DB,B,b - Freeze 
+-1000 power
+
+D,DB,B,c - knife barrage 
+-1000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b -Final The World Rush!
+-3000 power
+
+Vampire Imortal mode : Need full power to activate!
+-2000 power
+
+- increase power charge speed
+
+- increase damage
+
+-The world Teleport (New Run *Dash*)
+
+- Life Regen (Hp recover)
+
+D,DB,B,a -The World teleport
+-500 power
+
+D,DF,F,b - Muda! Muda! Muda! Full power
+-2000 power
+
+D,DB,B,c - Noroi knife barrage *target* 
+-1000 power
+
+Super:
+
+D,DF,F,D,DF,F,a+b - Road Roller!
+-3000 power

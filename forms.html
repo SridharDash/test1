@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML forms
+        </title>
+    </head>
+    <body>
+        <h1>WELCOME TO MY ONLINE STORE</h1>
+        <h3>Buy Beautiful shirts</h3>
+        <br>
+        <form method="post">
+           First Name : <input type="text" name="First Name" placeholder="First Name" size="50" maxlength="25"><br>
+           Second Name : <input type="text" name="Second Name" placeholder="Second Name" size="50" maxlength="25"><br>
+           <br><br>
+           <b>Type Of Shirt :</b>
+           <select name="shirtType" size="3" multiple >
+            <option>Sleeveless</option>
+            <option>Full sleeves</option>
+            <option>Round neck</option>
+            <option>Polo T-Shirts</option>
+            <option>Crew T-Shirt</option>
+           </select>
+           <br><br>
+
+           <b >Size:</b>
+           Small<input type="radio" name="size" value="small">
+           Medium<input type="radio" name="size" value="Medium">
+         Large<input type="radio" name="size" value="large">
+         <br>
+         <b>Color:</b>
+         Blue<input type="checkbox" name="colour" value="Blue">
+        Black <input type="checkbox" name="colour" value="Black">
+        Red <input type="checkbox" name="colour" value="Red">
+        Yellow <input type="checkbox" name="colour" value="Yellow">
+        <br></br>
+<textarea name="comments" rows="5" cols="50" placeholder="Leave Your comments here"></textarea>
+        <br></br>
+        <input type="submit" name="submit" value="Buy Now!">
+        <br>
+        <br>
+        <input type="reset" name="reset">
+        </form>
+    </body>
+</html>

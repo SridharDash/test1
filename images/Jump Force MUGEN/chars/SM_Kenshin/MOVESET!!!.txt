@@ -1,0 +1,48 @@
+
+Ground
+
+A - Sou Ryu Sen Hikazuchi
+
+Down + A - Ryu Mei Sen (stop projects 1* time)
+
+B - Ryu Kan Sen Tsumuji
+
+Down + B - Uppercut
+
+C - Sou Ryu Sen 
+
+S - Power Charge
+
+Air
+
+A - Sou Ryu Sen Hikasuchi
+
+B - Slash
+
+C - Ryu Kan Sen Arashi
+
+
+SPECIALS:
+
+D,DF,F,a - Do Ryu Sen
+-500 power
+
+D,DB,B,a - Ryuu Tsui Sen (Hold A for more range) *Press A in hit instant for use (- 500 power Ryu tsui-shou Sen)
+-1000 power
+
+D,DF,F,b - Ryu Kan Sen Kogarashi
+-1000 power
+
+D,DB,B,b - Hiten no Yomi *Taunt*
+-1000 power
+
+D,DB,B,c - Ryu Son Sen
+-1500 power
+
+D,DF,F,c - Kuzu Ryu Sen 
+-2000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Hiten Mitsurugi Ougi: Amakakeru Ryu No Hirameki
+-3000 power

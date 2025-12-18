@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Asuna"
+displayname ="Asuna"
+versiondate =22/05/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Asuna.sff
+anim =Asuna.air
+sound =Asuna.snd
+cmd =Asuna.cmd
+cns =Asuna.cns
+stcommon =common1.cns
+st =Asuna.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

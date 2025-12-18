@@ -1,0 +1,45 @@
+body{
+    background-image:url(https://th.bing.com/th/id/OIP.7vmsjf6t0WNu18iVTPOAOwHaE8?rs=1&pid=ImgDetMain);
+     font-family: sans-serif ;
+     padding: 40px;
+     backdrop-filter:  blur(2px);
+     background-size: cover;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+}
+.Menu{
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+.item{
+    display: inline-block;
+}
+.tiffin{
+    text-align: left;
+    padding-bottom: 2px;
+
+}
+.price{
+    text-align: right;
+    padding-bottom: 2px;
+}
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+    border-style: solid;
+}

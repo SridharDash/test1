@@ -1,0 +1,38 @@
+
+A - Phisic Attack
+
+B - Sword Slash
+
+C - 3D Equip
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Rifle Shot
+
+D,DB,B,a - Canon Shot
+
+D,DF,F,b - Raiso
+
+D,DB,B,b - 3D Catch
+
+D,DF,F,c - Shiso no Kyojin
+
+D,DB,B,c - Armor
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Titan Transformation
+
+* A - Punch
+
+* B - Kick
+
+* C - Chop
+
+D,DF,F,A - Armored Punch
+
+D,DF,F,B - Rock Throw
+
+D,DF,F,C - Rage

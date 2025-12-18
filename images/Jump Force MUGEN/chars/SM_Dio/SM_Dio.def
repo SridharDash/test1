@@ -1,0 +1,30 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Dio Brando"
+displayname = "Dio"
+versiondate = 24/03/2017
+mugenversion = 1.0
+author = "Shadow Mercer"
+pal.defaults = 1
+
+[Files]
+sprite = SM_Dio.sff
+anim = SM_Dio.air
+sound = SM_Dio.snd
+cmd = SM_Dio.cmd
+cns = SM_Dio.cns
+stcommon = common1.cns
+st = SM_Dio.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+st4 = The World.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

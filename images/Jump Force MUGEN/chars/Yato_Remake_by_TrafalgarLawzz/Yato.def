@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Yato"
+displayname ="Yato"
+versiondate =21/05/2018
+mugenversion =1.0
+author ="Mikel8888, TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Yato.sff
+anim =Yato.air
+sound =Yato.snd
+cmd =Yato.cmd
+cns =Yato.cns
+stcommon =common1.cns
+st =Yato.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Natsu"
+displayname ="Natsu (Dragon Force)"
+versiondate =22/12/2015
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Natsu_DragonForce.sff
+anim =Natsu_DragonForce.air
+sound =Natsu_DragonForce.snd
+cmd =Natsu_DragonForce.cmd
+cns =Natsu_DragonForce.cns
+stcommon =common1.cns
+st =Natsu_DragonForce.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

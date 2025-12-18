@@ -1,0 +1,89 @@
+
+A - Combo 1
+
+* Down + A - Uppercut
+
+B - Combo 2
+
+C - X-Cannon
+
+* Down + C - Flame Thrower // Air Jump
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Burning Axle
+
+D,DB,B,a - Mantello Di Vongola Primo
+
+D,DF,F,b - Oath Flame Combination
+
+D,DB,B,b - Zero Chiten Toppa First Edition
+
+D,DF,F,c - X-Burner
+
+D,DB,B,c - Ultimate Dying Will
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - XX-Burner
+
+;------------------------------------------------------
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+* Air Down + C - Air Jump
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Natsu!
+
+D,DB,B,a - Mantello Di Vongola Primo
+
+D,DF,F,b - X-Stream
+
+D,DB,B,b - Zero Chiten Toppa First Edition
+
+D,DF,F,c - Mitena Di Vongola Primo
+
+D,DB,B,c - Zero Chiten Toppa Kai
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - X-Burner Hyper Explosion
+;------------------------------------------------------
+
+A - Combo 1
+
+B - Combo 2
+
+C - Flame Thrower
+
+* Down + C - Flame Thrower // Air Jump
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Zero Chiten Toppa Kai
+
+D,DB,B,a - Zero Chiten Toppa Charge
+
+D,DF,F,b - Flame Rush
+
+D,DB,B,b - Flame Catch
+
+D,DF,F,c - Flame Thrower
+
+D,DB,B,c - Zero Chiten Toppa First Edition
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Supreme ZCT First Edition

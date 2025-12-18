@@ -1,0 +1,45 @@
+Ground
+
+A - High punch Hit
+
+B -  Phisic Hit
+
+C - Zoom punch
+
+S - Power charge
+
+Air
+
+A - Sword Hit
+
+B - Phisic Hit
+
+C - Zoom punch
+
+SPECIALS:
+
+D,DF,F,a - Overdrive
+-500 power
+
+D,DB,B,a - Scarlet Overdrive
+-1000 power
+
+F,DF,D,DB,B,a - Hamon Healing (3 times for round)
+-1000 
+
+D,DF,F,b - Overdrive Rendan
+-1500 power
+
+D,DB,B,b - Who'll Be The Last One Standing! 
+-2000 power
+
+D,DF,F,c - Sendo Hamon Overdrive
+-1000 power
+
+D,DB,B,c - Luck and Pluck Sword
+-1000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Sunlight Yellow Overdrive
+-3000 power

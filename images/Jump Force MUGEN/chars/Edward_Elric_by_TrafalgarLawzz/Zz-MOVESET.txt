@@ -1,0 +1,26 @@
+
+A - Punch
+
+B - Kick
+
+C - Knife
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Gatling Gun
+
+D,DB,B,a - Canon
+
+D,DF,F,b - Stone
+
+D,DB,B,b - Hand
+
+D,DF,F,c - Steel Pole
+
+D,DB,B,c - Mace Edward
+
+SUPER: 
+
+D,s - Brothers Elric

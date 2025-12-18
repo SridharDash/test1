@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Accelerator"
+displayname ="Accelerator"
+versiondate =15/05/2018
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Accelerator.sff
+anim =Accelerator.air
+sound =Accelerator.snd
+cmd =Accelerator.cmd
+cns =Accelerator.cns
+stcommon =common1.cns
+st =Accelerator.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

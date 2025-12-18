@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Janken Pa LV1
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Janken Pa LV2
+
+D,DB,B,a - Push
+
+D,DF,F,b - Janken Chi
+
+D,DB,B,b - Shingen-ryu
+
+D,DF,F,c - Janken Gu
+
+D,DB,B,c - Nen
+
+SUPER: 
+
+D,s - Ultimate Form: Janken Gu

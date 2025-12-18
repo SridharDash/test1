@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Ranma"
+displayname ="Ranma"
+versiondate =03/06/2018
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Ranma.sff
+anim =Ranma.air
+sound =Ranma.snd
+cmd =Ranma.cmd
+cns =Ranma.cns
+stcommon =common1.cns
+st =Ranma.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

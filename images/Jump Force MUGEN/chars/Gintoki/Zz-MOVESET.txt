@@ -1,0 +1,28 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Explosive
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Plank Gag
+
+D,DB,B,a - Gintoki Danpu
+
+D,DF,F,b - Sword Ride
+
+D,DB,B,b - Oh No!! My Sundae!!!
+
+D,DF,F,c - Oops...!
+
+D,DB,B,c - Insane Scooter
+
+D+c - Kamehameha
+
+SUPER: 
+
+x - Let's Go, Sadaharu!

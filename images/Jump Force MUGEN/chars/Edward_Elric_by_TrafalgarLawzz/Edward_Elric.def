@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Edward Elric"
+displayname ="Edward Elric"
+versiondate =05/04/2018
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Edward_Elric.sff
+anim =Edward_Elric.air
+sound =Edward_Elric.snd
+cmd =Edward_Elric.cmd
+cns =Edward_Elric.cns
+stcommon =common1.cns
+st =Edward_Elric.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

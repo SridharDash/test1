@@ -1,0 +1,28 @@
+
+A - Phisic Attack
+
+B - Hadika Hadeka
+
+C - Ugo Kun Parts
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Halharl Infigar
+
+D,DB,B,a - Halharl Rasars
+
+D,DF,F,b - Asfal Riif
+
+D,DB,B,b - Ramuzu
+
+D,DF,F,c - Flash
+
+D,DB,B,c - Borg
+
+F,DF,D,DB,B,c - Ugo Kun
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Ultimate Halharl Infigar

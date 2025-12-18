@@ -1,0 +1,30 @@
+
+A - Combo 1
+
+* Down + A - Laser Blast
+
+B - Combo 2
+
+* Down + B - Teleport Kick
+
+C - Wind Cannon
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Wind Punches
+
+D,DB,B,a - Egoist Counter
+
+D,DF,F,b - Power Explosion
+
+D,DB,B,b - Big Energy Blast
+
+D,DF,F,c - Super Kamehameha
+
+D,DB,B,c - Super Power Ball
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Im Not A Hero

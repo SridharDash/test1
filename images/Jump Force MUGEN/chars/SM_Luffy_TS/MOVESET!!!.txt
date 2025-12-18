@@ -1,0 +1,112 @@
+Ground
+
+A - combo A
+
+B - combo B 
+
+C - Jet pistol/Gigant Pistol (Hold)
+
+Air
+
+A - combo A
+
+B - combo B
+
+C - U.F.O
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Hawk Bullet(Lv 1)/Red Hawk(Lv 2)/Elephant Gun(Lv 3) (hold A) 
+-1000 power
+
+D,DF,F,a - Gear Thrid Fusen Smash (air)
+-1000 power
+
+D,DF,F,a - Jet Riffle(Lv 1)/Hawk Riffle(Lv 2)/Gigant Riffle(Lv 3) (hold A)
+-1000 power
+
+D,DF,F,b - Haoshoku no Haki
+-1000 power
+
+D,DB,B,a - Kenboushoku no Haki
+-1000 power
+
+D,DB,B,a - Jet Hammer (air)
+-1000 power
+
+D,DF,F,c - Jet Bazooka(Lv 1)/Eagle Bazooka(Lv 2)/Glizzly Magnum(Lv 3) (hold C)
+-1500 power
+
+D,DF,F,c - Jet Bazooka (air)
+-1000 power
+
+D,DB,B,c - Jet Gatling Gun(Lv 1)/Hawk Gatling Gun(Lv 2)/Elephant Gatling Gun(Lv 3) (hold C)
+-1500 power
+
+D,DB,B,c  - Jet Gatling Gun (air)
+-1000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Gear Fourth: Boundman
+-3000 power
+
+
+Gear Fourth mode:
++ Attack
++ Speed
++ Super armor for some enemy attacks
++ Double jump/Super jump with Run
++ Gain energy over time  
++ Pasive counter (need 1000 power or more)
+- loseslife over time 
+
+(limit 1 time for round and limited all Haki Attacks after use.)
+
+Ground
+
+A - combo A
+
+B - combo B 
+
+C - Gomu Gomu no Python
+
+Air
+
+A - combo A
+
+B - combo B
+
+C - Gomu Gomu no Rino Schneide
+
+-Hold Down during Fall for jumping in Air(only before Super jump)
+
+SPECIALS:
+
+D,DF,F,a - Gomu Gomu no Kong Gun (Can in air)
+-1000 power
+
+D,DB,B,a - Gomu Gomu no Rino Schneide (Can in air)
+-1000 power
+
+D,DF,F,b - Gomu Gomu no Culverin (Can in air)
+-1000 power
+
+D,DB,B,b - Taunt (Can in air)
+-1000 power
+
+D,DF,F,c - Gomu Gomu no Leo Bazooka (Can in air)
+-2000 power
+
+D,DB,B,c - Gomu Gomu no Kong Organ (Can in air)
+-1500 power
+
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Gomu Gomu no King Kong Gun (Disable Gear 4 after use)
+-3000 power
+
+*You Loss all Haki habilities and skill hold capacity after Gear fourth* (Ex:Haoshoku no Haki/Kenboushoku no Haki/Hawk Gattling Gun) 

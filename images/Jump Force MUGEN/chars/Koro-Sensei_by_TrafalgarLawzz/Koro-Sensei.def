@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Koro-Sensei"
+displayname ="Koro-Sensei"
+versiondate =06/11/2017
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Koro-Sensei.sff
+anim =Koro-Sensei.air
+sound =Koro-Sensei.snd
+cmd =Koro-Sensei.cmd
+cns =Koro-Sensei.cns
+stcommon =common1.cns
+st =Koro-sensei.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

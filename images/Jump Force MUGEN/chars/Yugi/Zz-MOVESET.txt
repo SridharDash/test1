@@ -1,0 +1,83 @@
+
+A - Card 1/4
+
+B - Card 2/5
+
+C - Card 3/6
+
+D+A/B/C - Face-Down Card
+
+S - Power Charge
+
+D+S - Shuffle/Draw
+
+COMBOS:
+
+Card Draws:
+
+A1) Celtic Guardian (simple attack)
+A2) Watapon (weak, but has high hitstun)
+A3) Buster Blader (strong, two hits)
+
+B1) Queen's Knight (three hits)
+B2) Catapult Turtle (launches opponent horizontally)
+B3) Time Wizard (freezes the opponent in time)
+
+C1) Black Luster Soldier (strong, fast hit with wide range)
+C2) Dark Magician (multiple strong hits)
+C3) Summoned Skull (launches opponent upwards)
+
+Aerial A1) Winged Dragon, Guardian of the Fortress #1
+	(shoots a projectile at a downwards angle)
+Aerial A2) Curse of Dragon (launches itself forward at a fast pace)
+Aerial A3) Kuriboh (flies downwards, then dips upwards for a weak attack)
+
+Aerial B1) Gaia the Fierce Knight (stalls, then attacks while moving forwards)
+Aerial B2) Dark Magician Girl (multiple hits)
+Aerial B3) Beta the Magnet Warrior (multiple stunning hits)
+
+Aerial C1) Dark Paladin (if the opponent is hit, their next Special will be interrupted)
+Aerial C2) Mammoth Graveyard (deals more damage the more Monsters have been used)
+Aerial C3) Giant Soldier of Stone (crashes towards the ground for heavy damage)
+
+Random Draw 1) Pot of Greed
+	(summons 2 Monsters at once; after it is used, it will not appear again until
+		Monster Reborn is activated)
+Random Draw 2) Exodia the Forbidden One 
+	(after 5 parts are summoned, Yugi wins the round instantly)
+
+Base form:
+
+a,a - Card 1 into Card 4
+
+b,b - Card 2 into Card 5
+
+c,c - Card 3 into Card 6
+
+a,b,c - Card 1 into Card 2 into Card 3
+
+a,a,b,b,c,c - Full Hand Combo
+
+SPECIALS:
+
+D,DF,F,a - Swords of Revealing Light
+		-Stuns the opponent
+
+D,DB,B,a - Monster Reborn
+		-Refreshes deck, restoring all used Monsters
+
+D,DF,F,b - Lightforce Sword
+		-Interrupts the next three of the opponent's Specials if it hits
+
+D,DB,B,b - Spellbinding Circle
+		-Holds the opponent in place for roughly 6 seconds
+
+D,DF,F,c - Dark Magic Twin Burst
+		-Powerful projectile
+
+D,DB,B,c - Berserker Soul
+		-Deals additional hits in exchange for the Monster cards in your hand
+
+SUPER: 
+
+x - Slifer the Sky Dragon

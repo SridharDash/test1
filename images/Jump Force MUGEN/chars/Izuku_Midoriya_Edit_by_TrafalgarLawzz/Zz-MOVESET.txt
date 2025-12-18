@@ -1,0 +1,36 @@
+
+A - Combo 1
+
+Down + A - Full Cowl 20%
+
+B - Combo 2
+
+Down + B - Energy Full Cowl
+
+C - Combo 3
+
+Down + C - Delaware Smash
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Detroit Smash
+
+D,DB,B,a - Shoot Style - Oklahoma Smash (Can Use in Air)
+
+D,DF,F,b - Shoot Style - St. Louis Smash
+
+D,DB,B,b - Manchester Mash (Can Use in Air)
+
+D,DF,F,c - Delaware Smash (Can Use in Air)
+
+D,DB,B,c - Delaware Smash - Air Force
+
+D,x - Full Cowl 100% - Phoenix Smash
+
+D,y - 1.000.000% Delaware Detroit Smash
+
+SUPER: 
+
+D,s - UNITED STATES OF SMASH!

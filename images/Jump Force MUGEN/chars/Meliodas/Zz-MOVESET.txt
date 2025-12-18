@@ -1,0 +1,26 @@
+
+A - Phisic Attack
+
+B - Sword Attack
+
+C - Full Counter // Drop
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Instant Kill
+
+D,DB,B,a - Demon Counter
+
+D,DF,F,b - Triturator
+
+D,DB,B,b - Sword Wave
+
+D,DF,F,c - Demon Assault
+
+D,DB,B,c - Demon Wave
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Revenge Counter

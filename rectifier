@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int min_transitions(int X, int Y) {
+    int min_val, max_val;
+    if (X < Y) {
+        min_val = X;
+        max_val = Y;
+    } else {
+        min_val = Y;
+        max_val = X;
+    }
+    int total = X + Y;
+    int transitions_between = (X + Y - 1) - 2 * min_val;
+    if (transitions_between < 0) {
+        transitions_between = 0;
+    }
+    return total + transitions_between;
+}
+
+int main() {
+    int T;
+    scanf("%d", &T);
+
+    while (T--) {
+        int X, Y;
+        scanf("%d %d", &X, &Y);
+        printf("%d\n", min_transitions(X, Y));
+    }
+
+    return 0;
+}

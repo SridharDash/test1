@@ -1,0 +1,54 @@
+Ground
+
+A - Shimobe ichi go hit
+
+B - Akane-chan hit
+
+C - 777 tools Evil chainsaw
+-500 power
+
+Air
+
+A - Demon Hair Hit
+
+B - Demon chop Hit
+
+C - Acid rain
+-500 power
+
+
+S - Power Charge (can in air)
+
+SPECIALS:
+
+D,DF,F,a - 777 tools Evil Shooter
+-1000 power
+
+D,DF,F,a - 777 tools Evil Friday (in air)
+-1000 power
+
+D,DB,B,a - Akane-chan Grab
+-1000 power
+
+D,DB,B,a - Demon Claw (in air)
+-1000 power
+
+D,DF,F,b - 777 tools Evil Drop
+-1500 power
+
+D,DB,B,b - 777 tools Evil Full face
+-1000 power
+
+
+D,DF,F,c - Super Doping Soup Attack!
+-1000 power
+
+D,DB,B,c - Song
+-2000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Hamnin wa omae da!!! *drain all power enemy, 260 damage and Healing our HP* (limit 1x for round)
+-3000 power
+
+

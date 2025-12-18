@@ -1,0 +1,42 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Tsuna"
+displayname ="Tsuna"
+versiondate =16/05/2018
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1,2,3,4,5,6,7,8,9,10,11,12
+
+[Files]
+sprite =Tsuna.sff
+anim =Tsuna.air
+sound =Tsuna.snd
+cmd =Tsuna.cmd
+cns =Tsuna.cns
+stcommon =common1.cns
+st =Tsuna.cns
+pal1=1.act
+pal2=2.act
+pal3=3.act
+pal4=4.act
+pal5=5.act
+pal6=6.act
+pal7=7.act
+pal8=8.act
+pal9=9.act
+pal10=10.act
+pal11=11.act
+pal12=12.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+st4=Future.cns
+st5=Varia.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,26 @@
+
+A - Phisic Attack
+
+B - Kagune Hit
+
+C - Kagune Thrust
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - I Will Not Kill You
+
+D,DB,B,a - Ghoul Homicide
+
+D,DF,F,b - Kagune Smash
+
+D,DB,B,b - Kagune Overwhelm
+
+D,DF,F,c - Kagune Pierce
+
+D,DB,B,c - Kagune Chop
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - I Will Break Half of Your Bones

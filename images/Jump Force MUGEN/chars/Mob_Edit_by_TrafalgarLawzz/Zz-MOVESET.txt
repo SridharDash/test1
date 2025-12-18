@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Bansho Tenin
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Telekinesis Push
+
+D,DB,B,a - Telekinesis
+
+D,DF,F,b - Rocks Barrage
+
+D,DB,B,b - Psyco Stun
+
+D,DF,F,c - Psycho Wave
+
+D,DB,B,c - OverKill Grab
+
+SUPER: 
+
+D,s - ???%

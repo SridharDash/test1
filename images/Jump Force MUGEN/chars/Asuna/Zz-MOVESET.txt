@@ -1,0 +1,30 @@
+
+A - Slash
+
+Down + A - Uppercut
+
+B - Rapier
+
+C - Rush Rapier
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Cuadruple Pain
+
+D,DB,B,a - Starry Tear
+
+F,DF,D,DB,B,a - Healing Magic
+
+D,DF,F,b - Shooting Star
+
+D,DB,B,b - Crescend Flash
+
+D,DF,F,c - Flashing Penetrator
+
+D,DB,B,c - Starry Combo
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Mothers Rosario

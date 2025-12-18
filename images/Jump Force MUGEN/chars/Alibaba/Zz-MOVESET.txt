@@ -1,0 +1,58 @@
+
+A - Phisic Attack
+
+B - Sword Slash
+
+C - Sword Thurst
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Kikouken
+
+D,DB,B,a - Royal Swordplay
+
+D,DF,F,b - Amon no Hoken
+
+D,DB,B,b - Maximum Concentration
+
+D,DF,F,c - Amol Berka
+
+D,DB,B,c - Flame Wall
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Amol Saiqa
+
+;--------
+
+* Down + S - Djinn Equip
+
+;--------
+
+A - Sword Slash
+
+B - Sword Thurst
+
+C - Amol Berka
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Amol Dherrsaiqa
+
+D,DB,B,a - Amon Counter
+
+D,DF,F,b - Lets Go Aon!
+
+D,DB,B,b - Amon Fury
+
+D,DF,F,c - Amol Berka
+
+D,DB,B,c - Flame Wall
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Amol Al-Bador Saiqa

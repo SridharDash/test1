@@ -1,0 +1,26 @@
+
+A - Punch
+
+B - Kick
+
+C - One Punch Man
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - One Punch Man
+
+D,DB,B,a - Special Day In The Supermarket!!!
+
+D,DF,F,b - Consecutive Normal Punches
+
+D,DB,B,b - Im Here
+
+D,DF,F,c - Death Punch
+
+D,DB,B,c - Saitama Sense
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Meteor Crash

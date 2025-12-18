@@ -1,0 +1,28 @@
+
+A - Black Sword
+
+* Down +  A - Uppercut
+
+B - Green Sword
+
+C - Nitoryu
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Embracer
+
+D,DB,B,a - Rage Spike
+
+D,DF,F,b - Horizontal Square
+
+D,DB,B,b - Lighting Fall
+
+D,DF,F,c - Howling Octave
+
+D,DB,B,c - Savage Fulcrum
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Starburst Stream

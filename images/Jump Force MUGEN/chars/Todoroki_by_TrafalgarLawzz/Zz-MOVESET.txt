@@ -1,0 +1,26 @@
+
+A - Punch
+
+B - Kick + Ice
+
+C - Fire
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Ice Punch
+
+D,DB,B,a - Ice Freeze
+
+D,DF,F,b - Fire Flame
+
+D,DB,B,b - Giant Ice Wall
+
+D,DF,F,c - Fire Burst
+
+D,DB,B,c - Half-Cold Half-Hot
+
+SUPER: 
+
+D,s - Fire Burning

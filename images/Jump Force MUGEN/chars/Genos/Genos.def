@@ -1,0 +1,24 @@
+[Info]
+name ="Genos"
+displayname ="Genos"
+versiondate =31/03/2018
+mugenversion =1.0
+author ="BlackJudai"
+pal.defaults =1
+
+[Files]
+sprite =Genos.sff
+anim =Genos.air
+sound =Genos.snd
+cmd =Genos.cmd
+cns =Genos.cns
+stcommon =common1.cns
+st =Genos.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Ichigo Final"
+displayname ="Ichigo Final"
+versiondate =07/10/2017
+mugenversion =1.0
+author ="TrafalgarLawzz, Codes & FX by Mikel8888 & Black Ideals"
+pal.defaults =1
+
+[Files]
+sprite =Ichigo_Final.sff
+anim =Ichigo_Final.air
+sound =Ichigo_Final.snd
+cmd =Ichigo_Final.cmd
+cns =Ichigo_Final.cns
+stcommon =common1.cns
+st =Ichigo_Final.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

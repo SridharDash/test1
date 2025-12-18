@@ -1,0 +1,41 @@
+Ground
+
+A - low punch Hit
+
+B - Excalibur
+
+C - Fóton Atacck (can be in air)
+-500 power
+
+Air
+
+A - Flying kick
+
+B - Excalibur
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Dragon Rage
+-1000 power
+
+D,DB,B,a - Rozan Sho Ryu Ha!
+-1000 power
+
+D,DF,F,b - Flying Dragon kick!
+-1000 power
+
+D,DB,B,b - Rozan Ryu Hisho
+-1000 power
+
+D,DF,F,c - Excalibur
+-1500 power
+
+D,DB,B,c - Rozan Hyaku Ryu Ha! 
+-2000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Rozan Kou Ryu Ha! (loss 260 of HP)
+-3000 power

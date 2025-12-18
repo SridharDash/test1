@@ -1,0 +1,992 @@
+;===============================================================================
+;----------------------Supers-----------------------------------------------
+;===============================================================================
+;===============================================================================
+; Fatal Assassination:
+;-------------------------------------------------------------------------------
+[Statedef 3000]
+type    = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 3000
+poweradd = -3000
+sprpriority = 2
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 104
+value = S5,4
+volume = 50
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 104
+value = S6,22
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 104
+value = S6,22
+volume = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 171
+value = S5,4
+volume = 50
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S0,30
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S0,30
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S0,30
+volume = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 7
+value = S0,31
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 7
+value = S0,31
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 7
+value = S0,31
+volume = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 160
+value = S0,32
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 160
+value = S0,32
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 160
+value = S0,32
+volume = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 57
+value = S0,33
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 57
+value = S0,33
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 57
+value = S0,33
+volume = 999
+
+;---------------------
+
+
+[State 3000, SuperPause]
+type = SuperPause
+trigger1 = time = 0
+time = 269
+movetime = 269
+anim = -1
+sound = -1
+pos = 32,-80
+darken = 0
+unhittable = 1
+;---------------------
+
+[State 3000, VarSet]
+type = Varset
+trigger1 = time = 0
+v = 59
+value = -100
+
+[State 3000, VarAdd]
+type = VarAdd
+trigger1 = time >= 259 && var(59) < 0
+v = 59
+value = 6
+
+[State 3000, BGColorFX]
+type = BGPalFX
+trigger1 = Time > 0
+time = 1
+add = var(59),var(59),var(59)
+
+[State 3000, Super Charge]
+type = Explod
+trigger1 = Time = 0
+anim = 7405
+ID = 7400
+pos = 3*Helper(999999),Fvar(16),-22*Helper(999999),Fvar(16)
+sprpriority = 2
+supermove = 1
+removetime = -2
+bindtime = -1
+ownpal = 1
+scale = .3*Helper(999999),Fvar(16),.3*Helper(999999),Fvar(16)
+removeongethit = 1
+ontop = 1
+supermovetime 	= 999
+ignorehitpause  = 1
+
+[State 3000, PlaySnd - Super Charge]
+type = PlaySnd
+trigger1 = Time = 0
+value = S950,2
+volume = 50
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = Unguardable
+
+[State 0, Elec FX]
+type = Helper
+trigger1 = animelem = 17
+helpertype = normal
+name = "Slifer"
+ID = 3001
+stateno = 3001
+pos = -45,0
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+size.xscale = 1*Helper(999999),Fvar(16)
+size.yscale = 1*Helper(999999),Fvar(16)
+pausemovetime = 999
+supermovetime = 999
+
+[State 200, End]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+;-------------------------------------------------------------------------------
+; Fatal Assassination - Portrait
+[Statedef 3070]
+type    = S
+movetype= I
+physics = S
+velset = 0,0
+ctrl = 0
+anim = 3070
+sprpriority = -1
+
+[State 0, Negro]
+type = Explod
+trigger1 = time = 10
+anim = 7020
+ID = 3070
+pos = -300,-300
+postype = p1
+facing = 1
+vfacing = 1
+bindtime = 1
+removetime = 80
+scale = 1,1
+sprpriority = -1
+ontop = 0
+ownpal = 1
+removeongethit = 1
+trans = add
+supermovetime = 999
+
+[State 0, PosSet]
+type = PosSet
+trigger1 = time = 0
+y = root,pos y- 80
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time < 10
+value = 1+time*25
+scale = .1+time*.05,.1+time*.05
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time >= 10
+value = 0
+scale = .5,.5
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = time = [10,90]
+flag = nobardisplay
+flag2 = noBG
+flag3 = nomusic
+ignorehitpause = 1
+
+[State 0, BGPalFX]
+type = BGPalFX
+trigger1 = time > 10
+time = 2
+add = -256+var(59),-256+var(59),-256+var(59)
+ignorehitpause = 1
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = Noshadow
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 59
+value = 0
+
+[State 0, VarAdd]
+type = VarAdd
+triggerall = var(59) < 256
+trigger1 = time >= 90
+v = 59
+value = 25
+
+[State 0, Trans]
+type = Trans
+trigger1 = time >= 90
+trans = addalpha
+alpha = 256-var(59),256
+
+[State 200, End]
+type = Destroyself
+trigger1 = time = 100
+;-------------------------------------------------------------------------------
+; A - 1
+[Statedef 3001]
+type    = S
+movetype= A
+physics = S
+juggle  = 2
+ctrl = 0
+anim = 3001
+poweradd = 0
+velset = 0,0
+sprpriority = 3
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S6,59
+volume = 999
+
+[State 0, PlaySnd]
+type = angledraw
+trigger1 = 1
+value = 0
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S6,12
+volume = 999
+
+[State 0, Estellas]
+type = varset
+trigger1 = time = 0
+v = 2
+value = 2031
+
+[State 0, Estellas]
+type = varset
+trigger1 = time = 0
+v = 3
+value = 0
+
+[State 0, Elec FX]
+type = Helper
+trigger1 = time = 1
+helpertype = normal
+name = "card"
+ID = 2000
+stateno = 2000
+pos = -25,-30
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+size.xscale = 0.075*Helper(999999),Fvar(16)
+size.yscale = 0.3*Helper(999999),Fvar(16)
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 0, PalFXWiz]
+type = PalFX
+trigger1 = time <= 6
+time = 1
+add = 180-time*30,180-time*30,180-time*30
+mul = 256,256,256
+sinadd = 0,0,0,1
+color = 256
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time <= 6
+scale = .1+time*.15,1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 6
+scale = 1,1
+
+[State 0, Estellas]
+type = Explod
+trigger1 = time <= 6
+anim = 3052
+ID = 551
+pos = -20+random%40,10-random%50
+postype = p1
+bindtime = 1
+vel = 0,-2
+removetime = -2
+scale = .35,.35
+sprpriority = 3
+ontop = 1
+ownpal = 1
+removeongethit = 1
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 0, Bolitas]
+type = Explod
+trigger1 = time <= 6
+anim = 3051
+ID = 560
+pos = -20*Helper(999999),Fvar(16)+random%40*Helper(999999),Fvar(16),0-random%40*Helper(999999),Fvar(16)
+postype = p1
+vel = -1+random%3,-2
+scale = .0025*Helper(999999),Fvar(16),.0025*Helper(999999),Fvar(16)
+sprpriority = 3
+ontop = 1
+trans = addalpha
+alpha = 150,256
+supermove = 999
+supermovetime = 999
+pausemove = 999
+pausemovetime = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0 || time = 2
+value = S6,54
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0 || time = 2
+value = S6,54
+volume = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 20 || time = 22
+value = S6,55
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 20 || time = 22
+value = S6,55
+volume = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 20
+value = S5,28
+volume = 50
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = timemod = 8,0
+value = S6,57
+volume = 999
+
+[State 0, PlaySnd]
+type = envshake
+trigger1 = timemod = 5,1
+time = 10
+
+[State 0, Explod]
+type = Explod
+trigger1 = timemod = 8,1
+anim = 7022
+ID = 1051
+pos = -10,0
+postype = p1
+facing = 1
+vfacing = 1
+bindtime = 1
+removetime = -2
+scale = .6*Helper(999999),Fvar(16),.6*Helper(999999),Fvar(16)
+sprpriority = 1
+ontop = 0
+ownpal = 1
+removeongethit = 1
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 0, Explod]
+type = Explod
+trigger1 = timemod = 8,1
+anim = 7022
+ID = 1051
+pos = 10,0
+postype = p1
+facing = -1
+vfacing = 1
+bindtime = 1
+removetime = -2
+scale = .6*Helper(999999),Fvar(16),.6*Helper(999999),Fvar(16)
+sprpriority = 1
+ontop = 0
+ownpal = 1
+removeongethit = 1
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 0, Rayos]
+type = Explod
+trigger1 = timemod = 4,0
+anim = 9030+(RANDOM%4)
+ID = 9030
+pos = -15*Helper(999999),Fvar(16)+random%30*Helper(999999),Fvar(16),0-random%45*Helper(999999),Fvar(16)
+postype = p1
+facing = 1
+vfacing = 1
+bindtime = -1
+removetime = -2
+scale = .3*Helper(999999),Fvar(16),.3*Helper(999999),Fvar(16)
+sprpriority = 2
+ontop = 1
+ownpal = 1
+removeongethit = 0
+supermove = 999
+supermovetime = 999
+pausemove = 999
+pausemovetime = 999
+
+[State 0, FX Corte]
+type = Explod
+trigger1 = timemod = 8,0
+anim = 4031
+ID =  43012
+pos = 100*Helper(999999),Fvar(16)-random%200*Helper(999999),Fvar(16),17*Helper(999999),Fvar(16)
+postype = p1
+facing = ifelse(random<500,1,-1)
+vfacing = 1
+bindtime = -1
+removetime = -2
+scale = 1.2*Helper(999999),Fvar(16),1*Helper(999999),Fvar(16)
+sprpriority = 2
+ontop = 1
+ownpal = 1
+removeongethit = 1
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 200, End]
+type = changestate
+trigger1 = root,animelem = 59
+value = 3002
+ctrl = 0
+
+[State 200, End]
+type = destroyself
+trigger1 = time = 120
+
+;-------------------------------------------------------------------------------
+; A - 1
+[Statedef 3002]
+type    = S
+movetype= A
+physics = S
+juggle  = 2
+ctrl = 0
+anim = 3002
+poweradd = 0
+velset = 0,0
+sprpriority = 3
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0 || time = 2
+value = S6,53
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0 || time = 2
+value = S6,53
+volume = 999
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = timemod = 8,0
+value = S6,57
+volume = 999
+
+[State 0, Rayos]
+type = Explod
+trigger1 = timemod = 4,0
+anim = 9030+(RANDOM%4)
+ID = 9030
+pos = -15*Helper(999999),Fvar(16)+random%30*Helper(999999),Fvar(16),0-random%45*Helper(999999),Fvar(16)
+postype = p1
+facing = 1
+vfacing = 1
+bindtime = -1
+removetime = -2
+scale = .3*Helper(999999),Fvar(16),.3*Helper(999999),Fvar(16)
+sprpriority = 2
+ontop = 1
+ownpal = 1
+removeongethit = 0
+supermove = 999
+supermovetime = 999
+pausemove = 999
+pausemovetime = 999
+
+[State 0, PlaySnd]
+type = angledraw
+trigger1 = 1
+value = 0
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S5,29
+volume = 999
+
+[State 0, PlaySnd]
+type = envshake
+trigger1 = timemod = 5,1
+time = 25
+
+[State 0, Explod]
+type = Explod
+trigger1 = timemod = 8,1
+anim = 7022
+ID = 1051
+pos = -10,0
+postype = p1
+facing = 1
+vfacing = 1
+bindtime = 1
+removetime = -2
+scale = .6*Helper(999999),Fvar(16),.6*Helper(999999),Fvar(16)
+sprpriority = 1
+ontop = 0
+ownpal = 1
+removeongethit = 1
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 0, Explod]
+type = Explod
+trigger1 = timemod = 8,1
+anim = 7022
+ID = 1051
+pos = 10,0
+postype = p1
+facing = -1
+vfacing = 1
+bindtime = 1
+removetime = -2
+scale = .6*Helper(999999),Fvar(16),.6*Helper(999999),Fvar(16)
+sprpriority = 1
+ontop = 0
+ownpal = 1
+removeongethit = 1
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 0, FX Corte]
+type = Explod
+trigger1 = timemod = 8,0
+anim = 4031
+ID =  43012
+pos = 100*Helper(999999),Fvar(16)-random%200*Helper(999999),Fvar(16),17*Helper(999999),Fvar(16)
+postype = p1
+facing = ifelse(random<500,1,-1)
+vfacing = 1
+bindtime = -1
+removetime = -2
+scale = 1.2*Helper(999999),Fvar(16),1*Helper(999999),Fvar(16)
+sprpriority = 2
+ontop = 1
+ownpal = 1
+removeongethit = 1
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 0, Thunder Lighting]
+type = Helper
+trigger1 = time = 0
+helpertype = normal
+name = "God Thunder"
+ID = 3004
+stateno = 3004
+pos = 0,0
+postype = p1
+facing = 0
+keyctrl = 0
+ownpal = 1
+size.yscale = 1
+size.xscale = 1
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 200, End]
+type = changestate
+trigger1 = time = 120
+value = 3003
+ctrl = 0
+
+;-------------------------------------------------------------------------------
+; A - 1
+[Statedef 3003]
+type    = S
+movetype= A
+physics = S
+juggle  = 2
+ctrl = 0
+anim = 3003
+poweradd = 0
+velset = 0,0
+sprpriority = 3
+
+[State 0, Rayos]
+type = Explod
+trigger1 = timemod = 8,0
+anim = 9030+(RANDOM%4)
+ID = 9030
+pos = -15*Helper(999999),Fvar(16)+random%30*Helper(999999),Fvar(16),0-random%45*Helper(999999),Fvar(16)
+postype = p1
+facing = 1
+vfacing = 1
+bindtime = -1
+removetime = -2
+scale = .3*Helper(999999),Fvar(16),.3*Helper(999999),Fvar(16)
+sprpriority = 2
+ontop = 1
+ownpal = 1
+removeongethit = 0
+supermove = 999
+supermovetime = 999
+pausemove = 999
+pausemovetime = 999
+
+[State 0, PlaySnd]
+type = angledraw
+trigger1 = 1
+value = 0
+
+[State 0, PalFXWiz]
+type = PalFX
+trigger1 = time >= 14
+time = 1
+add = 0+(time-14)*30,0+(time-14)*30,0+(time-14)*30
+mul = 256,256,256
+sinadd = 0,0,0,1
+color = 256
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time >= 14
+scale = 1-(time-14)*.15,1
+
+[State 0, Estellas]
+type = Explod
+trigger1 = time >= 14
+anim = 3052
+ID = 551
+pos = -20+random%40,10-random%50
+postype = p1
+bindtime = 1
+vel = 0,-2
+removetime = -2
+scale = .35,.35
+sprpriority = 3
+ontop = 1
+ownpal = 1
+removeongethit = 1
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 0, Bolitas]
+type = Explod
+trigger1 = time >= 14
+anim = 3051
+ID = 560
+pos = -20*Helper(999999),Fvar(16)+random%40*Helper(999999),Fvar(16),0-random%40*Helper(999999),Fvar(16)
+postype = p1
+vel = -1+random%3,-2
+scale = .0025*Helper(999999),Fvar(16),.0025*Helper(999999),Fvar(16)
+sprpriority = 3
+ontop = 1
+trans = addalpha
+alpha = 150,256
+supermove = 999
+supermovetime = 999
+pausemove = 999
+pausemovetime = 999
+ignorehitpause = 1
+pausemovetime = 999
+supermovetime = 999
+
+[State 0, PlaySnd]
+type = envshake
+trigger1 = time = 0
+time = 25
+
+[State 200, End]
+type = destroyself
+trigger1 = !animtime
+
+;-------------------------------------
+;Thunder
+[Statedef 3004]
+type    = S
+movetype= A
+physics = S
+juggle  = 2
+velset = 0,0
+ctrl = 0
+anim = 3004
+sprpriority = 4
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = unguardable
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S6,56
+volume = 999
+
+[State 0, BindToRoot]
+type = BindToParent
+trigger1 = 1
+pos = -20,-25
+ignorehitpause = 1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S6,60
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S6,60
+volume = 999
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = addalpha
+alpha = 256,256
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = 1
+value = 990
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+ignorehitpause = 1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S6,58
+volume = 999
+
+[State 200, 1]
+type = HitDef
+trigger1 = timemod = 5,0
+attr = S, SP
+animtype  = Heavy
+damage    = 12+root,var(48)*2,6+root,var(48)
+Hitflag = MAFDE
+guardflag = MA
+pausetime = 0,0
+sparkno = -1
+guard.sparkno = S7000
+sparkxy = 0,0
+hitsound   = S5,30
+guardsound = S4,1
+ground.type = High
+ground.slidetime = 12
+ground.hittime  = 15
+ground.velocity = -2,0
+air.velocity = -2,0
+Fall = 0
+getpower = 0,0
+PalFX.time = 30
+PalFX.add = 0,0,240
+PalFX.mul = 120,224,150
+PalFX.sinadd = 85,55,110,10
+PalFX.invertall = 1
+PalFX.color = 0
+sprpriority = 4
+
+[State 200, Spark CVS]
+type = Explod
+trigger1 = Movehit = 1
+anim = 4032
+ID = 7001
+postype = P2
+pos = -5,-30*Helper(999999),Fvar(16)
+facing = -1
+sprpriority = 2
+supermove = 1
+removetime = -2
+bindtime = 5
+ownpal = 1
+scale = .4*Helper(999999),Fvar(16),.4*Helper(999999),Fvar(16)
+removeongethit = 1
+ontop = 1
+supermovetime 	= 999
+ignorehitpause  = 1
+
+[State 200, End]
+type = changestate
+trigger1 = time = 120 && movecontact = 0
+trigger2 = parent,stateno != 3002
+value = 3005
+;-------------------------------------
+;Thunder End
+[Statedef 3005]
+type    = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 3005
+sprpriority = 4
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S6,61
+volume = 999
+
+[State 0, BindToRoot]
+type = BindToParent
+trigger1 = 1
+pos = 20,-30
+ignorehitpause = 1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = addalpha
+alpha = 256,256
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = 1
+value = 990
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+ignorehitpause = 1
+
+[State 200, 1]
+type = HitDef
+trigger1 = !movecontact
+attr = S, SP
+damage   = 40+root,var(48)*2,10
+animtype = Heavy
+Hitflag = MAFDE
+guardflag = MA
+pausetime = 0,0
+sparkno = -1
+guard.sparkno = S7000
+sparkxy = -8,-25
+hitsound   = S6,62
+guardsound = S4,1
+ground.type = High
+ground.slidetime = 12
+ground.hittime  = 15
+ground.velocity = -8,-4
+air.velocity = -8,-4
+Fall = 1
+Fall.recover = 0
+getpower = 0,0
+PalFX.time = 30
+PalFX.add = 0,0,240
+PalFX.mul = 120,224,150
+PalFX.sinadd = 85,55,110,10
+PalFX.invertall = 1
+PalFX.color = 0
+ignorehitpause  = 1
+sprpriority = 4
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = movehit = 1
+value = S6,62
+volume = 999
+
+[State 200, Spark CVS]
+type = Explod
+trigger1 = Movehit = 1
+anim = 4032
+ID = 7001
+postype = P2
+pos = -5,-30*Helper(999999),Fvar(16)
+facing = -1
+sprpriority = 2
+supermove = 1
+removetime = -2
+bindtime = 5
+ownpal = 1
+scale = 1.15*Helper(999999),Fvar(16),1.15*Helper(999999),Fvar(16)
+removeongethit = 1
+ontop = 1
+supermovetime 	= 999
+ignorehitpause  = 1
+
+[State 200, End]
+type = destroyself
+trigger1 = animtime = 0

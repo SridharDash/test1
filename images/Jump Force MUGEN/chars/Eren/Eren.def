@@ -1,0 +1,31 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Eren"
+displayname ="Eren"
+versiondate =03/06/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1,2
+
+[Files]
+sprite =Eren.sff
+anim =Eren.air
+sound =Eren.snd
+cmd =Eren.cmd
+cns =Eren.cns
+stcommon =common1.cns
+st =Eren.cns
+pal1=1.act
+pal2=2.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+st4=Titan_Mode.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

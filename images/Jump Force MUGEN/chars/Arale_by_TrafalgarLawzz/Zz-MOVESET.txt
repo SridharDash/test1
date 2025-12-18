@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - DrSlump Poop
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - DrSlump Poop Attack
+
+D,DB,B,a - Gore
+
+D,DF,F,b - Gatchan
+
+D,DB,B,b - Hug & Throw
+
+D,DF,F,c - Throw Car
+
+D,DB,B,c - Spraying
+
+SUPER: 
+
+D,s - CrossBreak

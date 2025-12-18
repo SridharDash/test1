@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Oga Tatsumi"
+displayname ="Oga Tatsumi"
+versiondate =01/05/2017
+mugenversion =1.0
+author ="TrafalgarLawzz, Codes by Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Oga_Tatsumi.sff
+anim =Oga_Tatsumi.air
+sound =Oga_Tatsumi.snd
+cmd =Oga_Tatsumi.cmd
+cns =Oga_Tatsumi.cns
+stcommon =common1.cns
+st =Oga_Tatsumi.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

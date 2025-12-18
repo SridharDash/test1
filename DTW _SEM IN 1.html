@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vegetable Purchase Form</title>
+</head>
+<body>
+    <h1>Purchase Vegetables</h1>
+    <form action="submit_form.php" method="post">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName"><br><br>
+
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName"><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone No:</label><br>
+        <input type="text" id="phone" name="phone"><br><br>
+
+        <label for="vegetable">Select Vegetable:</label><br>
+        <select id="vegetable" name="vegetable">
+            <option value="carrot">Carrot</option>
+            <option value="potato">Potato</option>
+            <option value="tomato">Tomato</option>
+            <option value="onion">Onion</option>
+            <option value="cabbage">Cabbage</option>
+            <option value="spinach">Spinach</option>
+            <option value="cauliflower">Cauliflower</option>
+            <option value="broccoli">Broccoli</option>
+            <option value="pepper">Pepper</option>
+            <option value="beans">Beans</option>
+        </select><br><br>
+
+        <label>Quantity:</label><br>
+        <input type="radio" id="quantity1" name="quantity" value="1kg">
+        <label for="quantity1">1 kg</label><br>
+        <input type="radio" id="quantity2" name="quantity" value="2kg">
+        <label for="quantity2">2 kg</label><br>
+        <input type="radio" id="quantity3" name="quantity" value="3kg">
+        <label for="quantity3">3 kg</label><br>
+        <input type="radio" id="quantity5" name="quantity" value="5kg">
+        <label for="quantity5">5 kg</label><br><br>
+
+        <label>Delivery Time:</label><br>
+        <input type="checkbox" id="time1" name="deliveryTime" value="1hr">
+        <label for="time1">1 hr</label><br>
+        <input type="checkbox" id="time1day" name="deliveryTime" value="1day">
+        <label for="time1day">1 day</label><br>
+        <input type="checkbox" id="time2days" name="deliveryTime" value="2days">
+        <label for="time2days">2 days</label><br><br>
+
+        <label for="instructions">Instruction for Delivery:</label><br>
+        <textarea id="instructions" name="instructions"></textarea><br><br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

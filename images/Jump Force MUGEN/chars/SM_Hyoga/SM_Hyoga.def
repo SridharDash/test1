@@ -1,0 +1,30 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Hyoga"
+displayname = "Hyoga"
+versiondate = 01/02/2017
+mugenversion = 1.0
+author = "Shadow Mercer"
+pal.defaults = 1,2
+
+[Files]
+sprite = SM_Hyoga.sff
+anim = SM_Hyoga.air
+sound = SM_Hyoga.snd
+cmd = SM_Hyoga.cmd
+cns = SM_Hyoga.cns
+stcommon = common1.cns
+st = SM_Hyoga.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+pal2 = 2.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

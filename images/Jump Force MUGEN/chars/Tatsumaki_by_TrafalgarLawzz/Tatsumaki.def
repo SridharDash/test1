@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Tatsumaki"
+displayname = "Tatsumaki"
+versiondate = 21/04/2018
+mugenversion = 1.0
+author = "TrafalgarLawzz"
+pal.defaults = 1
+
+[Files]
+sprite = Tatsumaki.sff
+anim = Tatsumaki.air
+sound = Tatsumaki.snd
+cmd = Tatsumaki.cmd
+cns = Tatsumaki.cns
+stcommon = common1.cns
+st = Tatsumaki.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

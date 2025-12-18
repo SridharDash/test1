@@ -1,0 +1,26 @@
+
+A - Combo 1 / Nail Gun
+
+B - Combo 2 / Knife
+
+C - Leg Knife LV1
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Twin Kugi Punch
+
+D,DB,B,a - Itadakimasu
+
+D,DF,F,b - Flying Fork / Canon Fork
+
+D,DB,B,b - Autophagy
+
+D,DF,F,c - Leg Knife LV2
+
+D,DB,B,c - Throw Stone
+
+SUPER: 
+
+D,s - Fork Kugi Punch

@@ -1,0 +1,41 @@
+Ground
+
+A - low punch Hit
+
+B - Freeze punch Hit
+
+C - Ice Circule (can be in air)
+-500 power
+
+Air
+
+A - Freezing kick Hit
+
+B - Cygnus chop Hit
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Ice Barrage
+-1000 power
+
+D,DB,B,a - Freeze
+-1000 power
+
+D,DF,F,b - Diamound Dust
+-1000 power
+
+D,DB,B,b - Kholodnyi Smerch
+-1000 power
+
+D,DF,F,c - Aurora Thunder Attack
+-1500 power
+
+D,DB,B,c - Freezing Coffin
+-2000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Golden Aquarius Cloth: Aurora Execution
+-3000 power

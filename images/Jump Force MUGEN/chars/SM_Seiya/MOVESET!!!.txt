@@ -1,0 +1,41 @@
+Ground
+
+A - low punch Hit
+
+B - Heavy punch Hit
+
+C - Ryuusei ken (Can in air)
+-500 power
+
+Air
+
+A - low kick Hit
+
+B - Pegasus chop Hit
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Atomic punch
+-1000 power
+
+D,DB,B,a - Ryuusei Ken Fist Edition
+-1000 power
+
+D,DF,F,b - Pegasus Ryusei ken (7th sence)
+-1000 power
+
+D,DB,B,b - Pegasus Rolling Crush
+-1000 power
+
+D,DF,F,c - Sargitarius kiseki wo Okose
+-2000 power
+
+D,DB,B,c - Pegasus Suisei ken 
+-1500 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Shin Ryusei Ken
+-3000 power

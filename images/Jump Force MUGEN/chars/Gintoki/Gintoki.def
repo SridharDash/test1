@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Gintoki"
+displayname ="Gintoki"
+versiondate =27/01/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Gintoki.sff
+anim =Gintoki.air
+sound =Gintoki.snd
+cmd =Gintoki.cmd
+cns =Gintoki.cns
+stcommon =common1.cns
+st =Gintoki.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

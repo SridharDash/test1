@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Plasma Generation
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Aerokinesis
+
+D,DB,B,a - Tactile Telekinesis
+
+D,DF,F,b - Flight
+
+D,DB,B,b - Stone
+
+D,DF,F,c - Earthquake Generation
+
+D,DB,B,c - Kinetic Energy Manipulation
+
+SUPER: 
+
+D,s - Black Wings

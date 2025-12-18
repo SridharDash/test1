@@ -1,0 +1,46 @@
+
+Ground
+
+A - low punch Hit
+
+B - Star Platinum punch Hit
+
+C - Ora! Ora! Ora! Rush 
+-500 power
+
+S - The world Dogde
+-1000 power
+
+Air
+
+A - Stand punch Hit
+
+B - Stand High punch Hit
+
+C - Ora! Ora! Ora!
+
+
+SPECIALS:
+
+D,DF,F,a - Yare Kusoo inu
+-1000 power
+
+D,DB,B,a - The World: Toki wo tomare!(D,DB,B,a -The World teleport -500 power)
+-1000 power
+
+D,DF,F,b - Ora! Ora! Ora! 
+-1000 power
+
+D,DB,B,b - Star Finger!
+-1000 power
+
+D,DB,B,c - Ora!!! Ora!!! Ora!!!
+-1500 power
+
+D,DF,F,c - Star Platinum Heavy Punch 
+-1000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - The World Ora!!! Ora!!! Ora!!!
+-3000 power

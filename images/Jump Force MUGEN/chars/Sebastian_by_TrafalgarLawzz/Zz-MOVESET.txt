@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Knife
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Beast
+
+D,DB,B,a - Fear
+
+D,DF,F,b - Punch
+
+D,DB,B,b - Speed
+
+D,DF,F,c - Knife
+
+D,DB,B,c - True Form: Attack
+
+SUPER: 
+
+D,s - True Form: Dark Energy

@@ -1,0 +1,26 @@
+
+A - Phisic Hit
+
+B - Weak Slash
+
+C - Strong Slash
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Punishment Kick
+
+D,DB,B,a - Tabaco Counter
+
+D,DF,F,b - Justice Slash
+
+D,DB,B,b - Shinsengumi!
+
+D,DF,F,c - Justaway Throw
+
+D,DB,B,c - SHINEE!
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Mayonnaise Gun

@@ -1,0 +1,24 @@
+[Info]
+name ="Akame"
+displayname ="Akame"
+versiondate =21/11/2017
+mugenversion =1.0
+author ="InSeph"
+pal.defaults =1
+
+[Files]
+sprite =Akame.sff
+anim =Akame.air
+sound =Akame.snd
+cmd =Akame.cmd
+cns =Akame.cns
+stcommon =common1.cns
+st =Akame.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

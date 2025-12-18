@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Monkey D Luffy"
+displayname = "Luffy"
+versiondate = 22/07/2017
+mugenversion = 1.0
+author = "Shadow Mercer"
+pal.defaults = 1
+
+[Files]
+sprite = SM_Luffy_TS.sff
+anim = SM_Luffy_TS.air
+sound = SM_Luffy_TS.snd
+cmd = SM_Luffy_TS.cmd
+cns = SM_Luffy_TS.cns
+stcommon = common1.cns
+st = SM_Luffy_TS.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

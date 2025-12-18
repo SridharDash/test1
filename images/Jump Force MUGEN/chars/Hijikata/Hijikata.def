@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Hijikata"
+displayname ="Hijikata"
+versiondate =09/04/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Hijikata.sff
+anim =Hijikata.air
+sound =Hijikata.snd
+cmd =Hijikata.cmd
+cns =Hijikata.cns
+stcommon =common1.cns
+st =Hijikata.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,566 @@
+;===============================================================================
+;----------------------Supers---------------------------------------------------
+;===============================================================================
+;-------------------------------------------------------------------------------
+; CrossBreak!
+[Statedef 3000]
+type    = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 3000
+poweradd = -3000
+sprpriority = 2
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S0,10
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S0,10
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S0,10
+volume = 999
+
+;---------------------
+
+
+[State 3000, SuperPause]
+type = SuperPause
+trigger1 = time = 0
+time = 120
+movetime = 120
+anim = -1
+sound = -1
+pos = 32,-80
+darken = 0
+unhittable = 1
+;---------------------
+
+[State 3000, VarSet]
+type = Varset
+trigger1 = time = 0
+v = 12
+value = -100
+
+[State 3000, VarSet]
+type = Varset
+trigger1 = time = 30
+v = 12
+value = 0
+
+[State 3000, VarAdd]
+type = VarAdd
+trigger1 = time >= 20 && Var(12) < 0
+v = 12
+value = 6
+
+[State 3000, BGColorFX]
+type = BGPalFX
+trigger1 = Time > 0
+time = 1
+add = Var(12),Var(12),Var(12)
+
+[State 3000, Super Charge]
+type = Explod
+trigger1 = Time = 0
+anim = 7405
+ID = 7400
+pos = 1*Helper(999999),Fvar(16),-10*Helper(999999),Fvar(16)
+sprpriority = 2
+supermove = 1
+removetime = -2
+bindtime = -1
+ownpal = 1
+scale = .25*Helper(999999),Fvar(16),.25*Helper(999999),Fvar(16)
+removeongethit = 1
+ontop = 1
+supermovetime 	= 999
+ignorehitpause  = 1
+
+[State 3000, PlaySnd - Super Charge]
+type = PlaySnd
+trigger1 = Time = 0
+value = S950,2
+volume = 50
+
+[State 0, FX]
+type = Explod
+trigger1 = animelem = 4
+anim = 3010
+ID = 3010
+pos = 0*Helper(999999),Fvar(16),-55*Helper(999999),Fvar(16)
+postype = p1
+bindtime = 1
+scale = .3*Helper(999999),Fvar(16),.3*Helper(999999),Fvar(16)
+sprpriority = 6
+ontop = 1
+ownpal = 1
+removeongethit = 1
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = unguardable
+
+[State 200, 1]
+type = HitDef
+triggerall = !movecontact
+trigger1 = 1
+attr = A, SA
+animtype  = Heavy
+damage    = 450,225
+Hitflag = MAFDE
+guardflag = MA
+pausetime = 10,10
+sparkno = -1
+guard.sparkno = -1
+sparkxy = -8,-25
+hitsound   = -1
+guardsound = -1
+ground.type = High
+ground.slidetime = 12
+ground.hittime  = 15
+ground.velocity = -2,-15
+air.velocity = -2,-15
+Fall = 1
+
+[State 0, Camara Lenta]
+type = Helper
+trigger1 = movehit = 1 && numhelper(590) = 0
+helpertype = normal
+name = "Camara Lenta"
+ID = 590
+stateno = 590
+pos = 999999,99999999
+postype = p1
+
+[State 0, EnvShake]
+type = EnvShake
+trigger1 = animelem = 4
+time = 90
+freq = 60
+ampl = -6
+phase = 90
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 4
+value = S2,4
+volume = 50
+
+[State 0, Roto]
+type = Explod
+trigger1 = animelem = 4
+anim = 8260
+ID = 8260
+pos = 0*Helper(999999),Fvar(16),0*Helper(999999),Fvar(16)
+postype = p1
+scale = .75*Helper(999999),Fvar(16),.75*Helper(999999),Fvar(16)
+sprpriority = -9
+ontop = 0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 4
+anim = 7025
+ID = 7025
+postype = p1
+pos = 0*Helper(999999),Fvar(16),30*Helper(999999),Fvar(16)
+facing = -1
+vfacing = 1
+bindtime = 1
+removetime = -2
+scale = .35*Helper(999999),Fvar(16),.35*Helper(999999),Fvar(16)
+sprpriority = 3
+ownpal = 1
+ontop = 1
+removeongethit = 1
+ignorehitpause = 0
+supermovetime = 999
+
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 4
+trigger1 = 1
+helpertype = normal
+name = "Rocas"
+ID = 3020
+stateno = 3020
+pos = 20,-5
+postype = p1
+facing = 1
+keyctrl = 0
+ownpal = 1
+
+[State 6036, Arale Punch! - Flashback]
+type = Explod
+trigger1 = animelem = 6
+anim = 3050
+postype = back
+sprpriority = 10
+supermovetime = -1
+pos = 160,90
+bindtime = -1
+removeongethit = 1
+supermove = 1
+pausemove = 1
+scale = .25,.25
+
+[State 3000, SuperPause]
+type = SuperPause
+trigger1 = animelem = 6
+time = 68
+movetime = 68
+anim = -1
+sound = -1
+pos = 32,-80
+darken = 0
+unhittable = 1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 6
+value = S5,44
+volume = 50
+
+[State 200, Spark CVS]
+type = Explod
+triggerall = Numexplod(1380) = 0
+trigger1 = Movehit = 1
+anim = 1380
+ID = 1380
+postype = P2
+pos = 0,-10
+facing = 1
+sprpriority = 2
+supermove = 1
+removetime = -2
+bindtime = 1
+ownpal = 1
+scale = .5*Helper(999999),Fvar(16),.5*Helper(999999),Fvar(16)
+removeongethit = 1
+ontop = 1
+supermovetime 	= 999
+ignorehitpause  = 1
+
+[State 200, End]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+;-------------------------------------------------------------------------------
+; Rocas - Start
+[Statedef 3020]
+type    = A
+movetype= A
+physics = A
+juggle  = 2
+ctrl = 0
+sprpriority = 3
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = 1
+value = 0
+scale = .2,.2
+
+[State 0, ChangeAnim]
+type = ChangeAnim
+trigger1 = time = 0
+value = 3020+(random%4)
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = time = 0
+x = -4+random%8
+y = -4-random%8
+
+[State 200, End]
+type = ChangeState
+triggerall = time >= 5
+trigger1 = pos y >= -15
+value = 3021
+;-------------------------------------------------------------------------------
+; Rocas - Fin
+[Statedef 3021]
+type    = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+sprpriority = 3
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = 1
+value = 0
+scale = .2,.2
+
+[State 0, PosSet]
+type = PosSet
+trigger1 = time = 0
+y = 0
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 1
+value = 0
+
+[State 0, VarAdd]
+type = VarAdd
+trigger1 = time > 30
+v = 1
+value = 25
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = addalpha
+alpha = 256-var(1),0+var(1)
+
+[State 200, End]
+type = Destroyself
+trigger1 = var(1) >= 256
+;-------------------------------------------------------------------------------
+; SUPER - Portrait
+[Statedef 3070]
+type    = S
+movetype= I
+physics = S
+velset = 0,0
+ctrl = 0
+anim = 3070
+sprpriority = -1
+
+[State 0, Negro]
+type = Explod
+trigger1 = time = 10
+anim = 7020
+ID = 3070
+pos = -300,-300
+postype = p1
+facing = 1
+vfacing = 1
+bindtime = 1
+removetime = 80
+scale = 1,1
+sprpriority = -1
+ontop = 0
+ownpal = 1
+removeongethit = 1
+trans = add
+supermovetime = 999
+
+[State 0, PosSet]
+type = PosSet
+trigger1 = time = 0
+y = root,pos y- 80
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time < 10
+value = 1+time*25
+scale = .1+time*.05,.1+time*.05
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time >= 10
+value = 0
+scale = .5,.5
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = time = [10,110]
+flag = nobardisplay
+flag2 = noBG
+flag3 = nomusic
+ignorehitpause = 1
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = time = [10,110]
+flag = noFG
+ignorehitpause = 1
+
+[State 0, BGPalFX]
+type = BGPalFX
+trigger1 = time > 10
+time = 2
+add = -256+var(12),-256+var(12),-256+var(12)
+ignorehitpause = 1
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = Noshadow
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 12
+value = 0
+
+[State 0, VarAdd]
+type = VarAdd
+triggerall = var(12) < 256
+trigger1 = time >= 110
+v = 12
+value = 25
+
+[State 0, Trans]
+type = Trans
+trigger1 = time >= 110
+trans = addalpha
+alpha = 256-var(12),256
+
+[State 200, End]
+type = Destroyself
+trigger1 = time = 120
+;-------------------------------------------------------------------------------
+; Camara Lenta
+[Statedef 3090]
+type    = A
+movetype= I
+physics = N
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 9999
+
+[State 0, Pause]
+type = Pause
+trigger1 = time = [0,5]
+time = 1
+
+[State 200, End]
+type = Destroyself
+trigger1 = time = 30

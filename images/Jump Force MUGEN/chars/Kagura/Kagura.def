@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Kagura"
+displayname ="Kagura"
+versiondate =30/04/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Kagura.sff
+anim =Kagura.air
+sound =Kagura.snd
+cmd =Kagura.cmd
+cns =Kagura.cns
+stcommon =common1.cns
+st =Kagura.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

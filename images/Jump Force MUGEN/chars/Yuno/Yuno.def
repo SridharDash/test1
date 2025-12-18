@@ -1,0 +1,26 @@
+[Info]
+name="Yuno Gasai"
+displayname="Yuno"
+versiondate=6/28/2018
+mugenversion=1.0
+author="SuperNaruto 64"
+pal.defaults=1,2
+[Files]
+sprite=Yuno.sff
+sound=Yuno.snd
+anim=Yuno.air
+cmd=Yuno.cmd
+cns=Yuno.cns
+st=Yuno.cns
+stcommon=common1.cns
+pal1=1.act
+pal2=2.act
+st1=AI.cns
+st2=Specials.cns
+st3=Super.cns
+[Palette Keymap]
+a=1
+b=2
+[Arcade]
+intro.storyboard=
+ending.storyboard=

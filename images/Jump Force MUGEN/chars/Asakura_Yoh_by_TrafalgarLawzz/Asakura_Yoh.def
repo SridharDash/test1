@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Yoh"
+displayname ="Yoh"
+versiondate =19/05/2018
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Asakura_Yoh.sff
+anim =Asakura_Yoh.air
+sound =Asakura_Yoh.snd
+cmd =Asakura_Yoh.cmd
+cns =Asakura_Yoh.cns
+stcommon =common1.cns
+st =Asakura_Yoh.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

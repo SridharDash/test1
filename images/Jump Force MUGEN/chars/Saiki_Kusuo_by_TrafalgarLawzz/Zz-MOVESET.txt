@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Stone
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Push!
+
+D,DB,B,a - Teleport
+
+D,DF,F,b - Thunder Ball
+
+D,DB,B,b - Target Control
+
+D,DF,F,c - Thunder!!!
+
+D,DB,B,c - Thunder Stone
+
+SUPER: 
+
+D,s - Genkidama (Thunder Version)

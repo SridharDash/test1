@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Jonathan Joestar"
+displayname = "Jonathan"
+versiondate = 30/05/2017
+mugenversion = 1.0
+author = "Shadow Mercer"
+pal.defaults = 1
+
+[Files]
+sprite = SM_Jonathan.sff
+anim = SM_Jonathan.air
+sound = SM_Jonathan.snd
+cmd = SM_Jonathan.cmd
+cns = SM_Jonathan.cns
+stcommon = common1.cns
+st = SM_Jonathan.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

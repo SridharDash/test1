@@ -1,0 +1,41 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Alibaba"
+displayname ="Alibaba"
+versiondate =21/04/2018
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1,2
+
+[Files]
+sprite =Alibaba.sff
+anim =Alibaba.air
+sound =Alibaba.snd
+cmd =Alibaba.cmd
+cns =Alibaba.cns
+stcommon =common1.cns
+st =Alibaba.cns
+pal1=1.act
+pal2=2.act
+pal3=1.act
+pal4=2.act
+pal5=1.act
+pal6=2.act
+pal7=1.act
+pal8=2.act
+pal9=1.act
+pal10=2.act
+pal11=1.act
+pal12=2.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+st4=DjinnEquip.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

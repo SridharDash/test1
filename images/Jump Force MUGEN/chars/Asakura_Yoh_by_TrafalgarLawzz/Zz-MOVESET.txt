@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Buttagiri
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Senpu Buttagiri
+
+D,DB,B,a - Gokoujin
+
+D,DF,F,b - Slasher
+
+D,DB,B,b - Amidaryu Gokoujin
+
+D,DF,F,c - Futsu no Mitama no Tsurugi
+
+D,DB,B,c - Energy Harusame
+
+SUPER: 
+
+D,s - Oversoul: Byakko

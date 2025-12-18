@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Energy Cloth
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Sunlight Slasher
+
+D,DB,B,a - Sunlight Flasher
+
+D,DF,F,b - Sunlight Crasher
+
+D,DB,B,b - Sunlight Slasher Air
+
+D,DF,F,c - Energy Attack
+
+D,DB,B,c - Energy Slash
+
+SUPER: 
+
+D,s - Victor III: Sunlight Blaster

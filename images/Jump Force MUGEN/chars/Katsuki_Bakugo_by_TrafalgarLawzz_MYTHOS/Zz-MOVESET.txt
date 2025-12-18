@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Explosion
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Stun Grenade
+
+D,DB,B,a - Rapid Fire
+
+D,DF,F,b - DIE! DIE! DIE!
+
+D,DB,B,b - Cover Fire
+
+D,DF,F,c - AP Shot
+
+D,DB,B,c - Explosive Rage
+
+SUPER: 
+
+D,s - Howitzer Impact

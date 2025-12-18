@@ -1,0 +1,28 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Zangetsu
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - SPECIAL 1
+
+D,DB,B,a - SPECIAL 2
+
+D,DF,F,b - SPECIAL 3
+
+D,DB,B,b - SPECIAL 4
+
+D,DF,F,c - SPECIAL 5
+
+D,DB,B,c - SPECIAL 6
+
+D,c - SPECIAL 7
+
+SUPER: 
+
+D,s - Getsuga Tenshou Final
